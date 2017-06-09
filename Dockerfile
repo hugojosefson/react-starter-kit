@@ -1,4 +1,4 @@
-FROM node:7.9.0-alpine
+FROM node:8.1.0-alpine
 
 # Set a working directory
 WORKDIR /usr/src/app
@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 COPY ./build/package.json .
 
 # Install Node.js dependencies
-RUN yarn install --production --no-progress
+RUN npm install --production
 
 # Copy application files
 COPY ./build .

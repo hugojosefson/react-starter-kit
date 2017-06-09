@@ -46,7 +46,7 @@ Install local npm packages
 * [stylelint](https://www.npmjs.com/package/stylelint)
 
 ```shell
-yarn add --dev eslint babel-eslint eslint-plugin-react stylelint
+npm install --save-dev eslint babel-eslint eslint-plugin-react stylelint
 ```
 
 *You may need to restart atom for changes to take effect*
@@ -54,7 +54,7 @@ yarn add --dev eslint babel-eslint eslint-plugin-react stylelint
 ### SublimeText
 
 Install SublimeText packages  
-Easiest with [Package Control](https://packagecontrol.io/) and then "Package Control: Install Package" (Ctrl+Shift+P)  
+Easiest with [Package Control](https://packagecontrol.io/) and then "Package Control: Install Package" (Ctrl+Shift+P)
 
 * [Babel](https://packagecontrol.io/packages/Babel)
 * [Sublime-linter](http://www.sublimelinter.com/en/latest/)
@@ -73,8 +73,8 @@ Set Babel as default syntax for a particular extension:
 Install local npm packages
 
 ```
-yarn add --dev eslint@latest
-yarn add --dev babel-eslint@latest
-yarn add --dev eslint-plugin-react
-yarn add --dev stylelint
+npm install --save-dev eslint@latest
+npm install --save-dev babel-eslint@latest
+npm install --save-dev eslint-plugin-react
+npm install --save-dev stylelint
 ```

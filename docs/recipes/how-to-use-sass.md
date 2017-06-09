@@ -14,8 +14,7 @@ and [prerequisites](https://github.com/nodejs/node-gyp#installation)) and
 [`sass-loader`](https://github.com/jtangelder/sass-loader) modules as dev dependencies:
 
 ```sh
-$ yarn add node-sass --dev
-$ yarn add sass-loader --dev
+$ npm install --save-dev node-sass sass-loader
 ```
 
 ### Step 2
